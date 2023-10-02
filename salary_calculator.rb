@@ -3,7 +3,6 @@
 # Interfaz para el cálculo del salario
 class SalaryCalculator
     def calculate_salary(base_salary, hours_worked, scale)
-      raise NotImplementedError, "Subclasses must implement this method"
     end
   end
   
